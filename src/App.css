@@ -1,0 +1,71 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+  min-height: 400px;
+  max-height: 500px;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  background-image: url(./assets/bg.jpg);
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 300px;
+  max-height: 400px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.task > input {
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  text-decoration: wavy;
+}
+.taskitem {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(212, 209, 209);
+  border-radius: 5px;
+  color: black;
+  min-height: 50px;
+  margin: 5px;
+}
+.taskitem > input {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+.taskitems {
+  padding: 5px;
+  margin: 5px;
+}
+
+#addtask {
+  width: 80%;
+  margin-top: 50px;
+  margin: 10px;
+}
+
+#addtask > input {
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#todoimage {
+  width: 300px;
+  height: 300px;
+}
+#title {
+  color: rgb(177, 220, 220);
+}
